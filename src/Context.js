@@ -329,7 +329,7 @@
       return this._context.isPointInPath(x, y);
     },
     fill: function() {
-      this._context.fill();
+      this._context.fill('evenodd');
     },
     fillRect: function(x, y, width, height) {
       this._context.fillRect(x, y, width, height);
